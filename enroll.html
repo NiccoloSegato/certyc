@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Apply for certification - Certyc</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="assets/images/icon.ico">
+        <link rel="stylesheet" href="styles/glbl.css">
+        <link rel="stylesheet" href="styles/enroll.css">
+        <script src="scripts/enroll.js"></script>
+    </head>
+    <body>
+        <main>
+            <img src="assets/images/logo.png" id="logo">
+            <h1>Apply for certification</h1>
+            <p>Please provide us with some information about your company for which you are applying for certification.</p><p>We will send you an email once our team has checked the eligibility of the request.</p>
+
+            <form onsubmit="checkFields()">
+                <label for="business_name">Company name</label>
+                <input class="enroll-input" type="text" name="business_name" id="business_name" placeholder="Company name">
+                <label for="business_employees">Number of employees</label>
+                <input class="enroll-input" type="text" name="business_employees" id="business_employees" placeholder="Number of employees">
+                <label for="business_place">Company address</label>
+                <input class="enroll-input" type="text" name="business_place" id="business_place" placeholder="Company address">
+                <label for="business_website">Website or social</label>
+                <input class="enroll-input" type="text" name="business_website" id="business_website" placeholder="Website">
+                <label for="business_email">Contact email</label>
+                <input class="enroll-input" type="email" name="business_email" id="business_email" placeholder="Contact email">
+
+                <input class="enroll-input" type="checkbox" id="privacy_check" value="Accept">
+                <label for="privacy_check">Accetto la privacy policy</label>
+                
+                <input id="submit" type="submit">
+            </form>
+
+        </main>
+
+        <footer>
+            <img src="assets/images/logo.png">
+            <p>Copyright © 2021 - Certyc</p>
+        </footer>
+
+    </body>
+</html>

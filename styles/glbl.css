@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Quicksand;
+    src: url("../assets/fonts/Quicksand-VariableFont_wght.ttf");
+}
+
+body {
+    font-family: Quicksand, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.divider {
+    background: linear-gradient(90deg, #F53D7D, #642BFF);
+    height: 3px;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+}
+footer {
+    background-color: #f7f7f7;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+}
+footer img {
+    width: 100px;
+}
