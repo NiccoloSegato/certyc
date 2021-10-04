@@ -1,13 +1,3 @@
-@font-face {
-    font-family: Quicksand;
-    src: url("../assets/fonts/Quicksand-VariableFont_wght.ttf");
-}
-
-body {
-    font-family: Quicksand, sans-serif;
-    padding: 0;
-    margin: 0;
-}
 #big-init {
     text-align: center;
     color: white;
@@ -127,10 +117,10 @@ body {
     font-size: 20px;
 }
 
-footer {
-    background-color: #f7f7f7;
-    padding: 30px;
-    margin-top: 40px;
+#clear-text {
+    margin: auto;
+    width: 90%;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 600px) {
